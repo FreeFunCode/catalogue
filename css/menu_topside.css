@@ -55,13 +55,13 @@ body,
 	z-index: 1000;
 	margin: 1em;
 	padding: 0;
-	width: 2.5em;
-	height: 2.25em;
-	border: none;
+	width: 2.0em;
+	height: 2.0em;
+	border: 2px;
 	text-indent: 2.5em;
 	font-size: 1.5em;
 	color: transparent;
-	background: transparent;
+	background: #FFFCE1;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 }
@@ -141,8 +141,8 @@ body,
 
 .show-menu .content-wrap,
 .show-menu .menu-button {
-	-webkit-transform: translate3d(300px,60px,0);
-	transform: translate3d(300px,60px,0);
+	-webkit-transform: translate3d(250px,60px,20px);
+	transform: translate3d(250px,60px,20px);
 }
 
 .show-menu .content::before {
