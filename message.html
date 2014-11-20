@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html><html lang="en" class="no-js">	<head>		<meta charset="utf-8" />		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 		<meta name="viewport" content="width=device-width, initial-scale=1"> 		<title>个人网站导航-黄广志</title>		<meta name="description" content="79kg.com 黄广志" />		<meta name="keywords" content="79kg.com,黄广志" />		<meta name="author" content="黄广志" />		<link rel="shortcut icon" href="img/favicon.ico">		<link rel="stylesheet" type="text/css" href="css/all.css" />  <script src="js/jquery-1.9.1.min.js"></script> 	</head>	<body>		<div class="container" style="background-image:url('img/bg2.jpg')">			<div class="menu-wrap">				<nav class="menu-top">					<div class="profile"><img id="userImg" src="img/user.png" width="220px" height="320px" alt="作者"/>					</div>				</nav>		<nav class="menu-side">
+					<a href="http://freefuncode.github.io/About" target="_blank">关于我</a>      <a href="/message.html">在线留言</a>
+				</nav>		<nav class="menu-side">					<a href="http://wpa.qq.com/msgrd?v=1&uin=519396085&site=qq&menu=yes" target="_blank">找我聊会</a>					<a href="mailto:79kg@79kg.com" target="_blank">给我发邮件</a>				</nav>			</div>			<button class="menu-button" id="open-button"></button>			<div class="content-wrap" style="background:transparent">				<div class="content" style="background:transparent">					<header class="codrops-header">						<div><a href="http:79kg.com"><font color="gray">回到首页</font></a></div>
+						<nav class="codrops-demos">
+							<div id="disqus_thread"></div>
+								<script type="text/javascript">
+									/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+									var disqus_shortname = '79kg'; // required: replace example with your forum shortname 这个地方需要改成你配置的网站名
+									
+									/* * * DON'T EDIT BELOW THIS LINE * * */
+									(function() {
+										var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+										dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+										(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+									})();
+									$('#disqus_container .comment').on('click',function(){  
+										$(this).html('加载中...');  
+										var disqus_shortname = '79kg';  
+										var that = this;  
+										BYB.includeScript('http://' + disqus_shortname + '.disqus.com/embed.js',function(){$(that).remove()}); //这是一个加载js的函数  
+									}); 
+								</script>
+						</nav>						<p>Powered by html5 | Copyright 2014 黄广志</p>					</header>				</div>			</div>		</div>		<script src="js/classie.js"></script>		<script src="js/main.js"></script>		<script src="js/jquery.js" type="text/javascript"></script>		<script src="js/jquery_002.js" type="text/javascript"></script>		<script type="text/javascript">			$(function(){				$("#userImg").imageLens({lensSize: 160 });			});			</script>	</body></html>
